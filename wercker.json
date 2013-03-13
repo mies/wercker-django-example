@@ -2,8 +2,8 @@
   "services" : {
     "postgresql" : true
   },
-  "customSteps" : {
-      "setup_environment" : "export DJANGO_SETTINGS_MODULE='wercks.test_settings'",
-      "test" : "python manage.py test"
+  "custom steps" : {
+    "setup environment" : "export DJANGO_SETTINGS_MODULE='wercks.test_settings'",
+    "test" : "python manage.py test"
   }
 }
